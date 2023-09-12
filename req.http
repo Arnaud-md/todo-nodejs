@@ -1,3 +1,7 @@
 GET http://localhost:3030
 ###
-GET http://localhost:3030/saveBDD/une autre phrase
+GET http://localhost:3030/saveBDD/phrase sauvegardee/true
+###
+POST http://localhost:3040/saveBDD/phrase sauvegardee7
+###
+GET http://localhost:3040/findAll/
